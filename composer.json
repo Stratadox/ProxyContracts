@@ -1,0 +1,18 @@
+{
+    "name": "stratadox/proxy-contracts",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stratadox",
+            "homepage": "http://www.stratadox.com/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Stratadox\\Proxy\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=7.1"
+    }
+}
