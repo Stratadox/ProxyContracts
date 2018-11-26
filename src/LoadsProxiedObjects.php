@@ -19,18 +19,4 @@ interface LoadsProxiedObjects
      * @return mixed|object The object that was proxied.
      */
     public function loadTheInstance();
-
-    /**
-     * Attach an observer to this loader.
-     *
-     * @param ObservesProxyLoading $observer The observer to attach.
-     */
-    public function attach(ObservesProxyLoading $observer) : void;
-
-    /**
-     * Detach an observer from this loader.
-     *
-     * @param ObservesProxyLoading $observer The observer to detach.
-     */
-    public function detach(ObservesProxyLoading $observer) : void;
 }
