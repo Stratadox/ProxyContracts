@@ -10,10 +10,4 @@ namespace Stratadox\Proxy;
  */
 interface Proxy
 {
-    /**
-     * Lazily load and return the proxied object.
-     *
-     * @return object The lazily loaded object.
-     */
-    public function __load();
 }
